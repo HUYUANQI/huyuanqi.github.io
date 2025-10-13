@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDV Assignment 2 - SVG Transformations</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      width: 95%;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      transition: all 0.3s ease;
+    }
+    .mirror { transform: scaleX(-1); }
+    .rotate { transform: rotate(180deg); }
+    .squash { transform: scaleY(0.5); }
+    .grayscale { filter: grayscale(100%); }
+  </style>
+</head>
+<body>
+  <h1>SVG Transformations Gallery</h1>
+  <p>10 colorful SVGs with 5 transformations: Original, Mirrored, Rotated, Squashed, and Grayscale.</p>
+
+  <table>
+    <tr>
+      <th>Original</th>
+      <th>Mirrored</th>
+      <th>Rotated 180°</th>
+      <th>Vertically Squashed</th>
+      <th>Grayscale</th>
+    </tr>
+
+    <tr>
+      <td><img src="file-files-and-folders-svgrepo-com.svg"></td>
+      <td><img src="file-files-and-folders-svgrepo-com.svg" class="mirror"></td>
+      <td><img src="file-files-and-folders-svgrepo-com.svg" class="rotate"></td>
+      <td><img src="file-files-and-folders-svgrepo-com.svg" class="squash"></td>
+      <td><img src="file-files-and-folders-svgrepo-com.svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folder-1-search-solid-svgrepo-com.svg"></td>
+      <td><img src="folder-1-search-solid-svgrepo-com.svg" class="mirror"></td>
+      <td><img src="folder-1-search-solid-svgrepo-com.svg" class="rotate"></td>
+      <td><img src="folder-1-search-solid-svgrepo-com.svg" class="squash"></td>
+      <td><img src="folder-1-search-solid-svgrepo-com.svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (1).svg"></td>
+      <td><img src="folders-svgrepo-com (1).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (1).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (1).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (1).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (2).svg"></td>
+      <td><img src="folders-svgrepo-com (2).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (2).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (2).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (2).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (3).svg"></td>
+      <td><img src="folders-svgrepo-com (3).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (3).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (3).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (3).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (4).svg"></td>
+      <td><img src="folders-svgrepo-com (4).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (4).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (4).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (4).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (5).svg"></td>
+      <td><img src="folders-svgrepo-com (5).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (5).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (5).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (5).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (6).svg"></td>
+      <td><img src="folders-svgrepo-com (6).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (6).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (6).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (6).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com (7).svg"></td>
+      <td><img src="folders-svgrepo-com (7).svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com (7).svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com (7).svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com (7).svg" class="grayscale"></td>
+    </tr>
+
+    <tr>
+      <td><img src="folders-svgrepo-com.svg"></td>
+      <td><img src="folders-svgrepo-com.svg" class="mirror"></td>
+      <td><img src="folders-svgrepo-com.svg" class="rotate"></td>
+      <td><img src="folders-svgrepo-com.svg" class="squash"></td>
+      <td><img src="folders-svgrepo-com.svg" class="grayscale"></td>
+    </tr>
+  </table>
+</body>
+</html>
